@@ -1,0 +1,181 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+#hero {
+    background-image: url(/assets/img/vangoghear.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-image: cover;
+    overflow: hidden;
+
+}
+
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    /* margin: 0 auto; */
+	position: relative;
+	overflow: hidden;
+	
+}
+
+.logo {
+    float: left;
+
+}
+
+.menu {
+    float: right;
+}
+
+section #hero{
+    position: relative;
+    
+}
+
+
+
+main {
+    
+    margin-top: 200px;
+    margin-bottom: 200px;
+    align-items: center;
+}
+
+/*  */
+
+#hero nav {
+    width: 100%;
+    display: inline-block;
+    justify-content: space-between;
+    background: #79C4C0;
+    text-align: center;
+    align-items: center;
+    
+}
+
+nav .menu a {
+    padding: 20px;
+    text-decoration: none;
+    color: #E8504D;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
+nav .menu a:hover{
+    background: #E8504D;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+}
+
+.main-section {
+    color: white;
+    text-align: center;
+}
+
+.hero-text-1 {
+    display: inline-block;
+    text-align: center;
+    background: #E8504D;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.hero-text-2 {
+    background: #414548;
+    border-radius: 10px;
+    padding: 10px 50px;
+    display: inline-block;
+}
+
+/* .text-center {
+    background: #E8504D;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+.text-center:hover {
+    background: rgb(248, 184, 173);
+    cursor: pointer;
+}
+
+.btn a .btn-one{
+    align-items: center;
+    text-align: center;
+} */
+
+main .main-section .btn {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    border: 1px solid rebeccapurple;
+    align-items: center;
+    margin-top: 255px;
+    margin-left: 485px;
+}
+
+section {
+    background: #EEECED;
+    padding: 50px;
+    position: relative;
+}
+
+.btn-2 {
+    float: right;
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    background: #E8504D;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#features .container{
+    text-align: center;
+	padding: 60px 20px;
+}
+
+/* fontawesome */
+
+.far {
+    font-size: 100px;
+    padding: 25px;
+    color: #71CFCF;
+}
+
+.btn-f {
+    background-color: #71CFCF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+/* last section */
+
+#last {
+    background: #F4F4F4;
+}
+
+.why {
+    color: tomato;
+    text-align: center;
+}
+
+.last-pera {
+    text-align: center;
+}
+
+#services {
+    background-color: #F1F3F5;
+}
