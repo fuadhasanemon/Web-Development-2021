@@ -1,14 +1,16 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 #hero {
     background-image: url(/assets/img/vangoghear.jpg);
     background-attachment: fixed;
     background-position: center;
     background-image: cover;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -24,11 +26,13 @@
 
 .logo {
     float: left;
+    color: #E8504D;
 
 }
 
 .menu {
     float: right;
+    
 }
 
 section #hero{
@@ -43,9 +47,14 @@ main {
     margin-top: 200px;
     margin-bottom: 200px;
     align-items: center;
-}
+} 
 
-/*  */
+
+#hero .navbar {
+    width: 100%;
+    padding-left: 311px;
+    padding-right: 311px;
+}
 
 #hero nav {
     width: 100%;
@@ -59,10 +68,13 @@ main {
 
 nav .menu a {
     padding: 20px;
+    
     text-decoration: none;
     color: #E8504D;
     text-transform: uppercase;
     font-size: 20px;
+    line-height: 0.3rem;
+    font-weight: 400;
     
 }
 
@@ -153,6 +165,14 @@ section {
     color: #71CFCF;
 }
 
+.fas {
+    font-size: 100px;
+    padding: 25px;
+    color: #71CFCF;
+}
+
+/* fontawesome */
+
 .btn-f {
     background-color: #71CFCF;
     color: white;
@@ -179,3 +199,16 @@ section {
 #services {
     background-color: #F1F3F5;
 }
+
+/* animation box of features */
+
+.col-md-3 {
+    background-color: #EEECED;
+    color: #71CFCF;
+    animation: mymove 5s infinite;
+    padding: 20px;
+}
+
+@keyframes mymove {
+    50% {box-shadow: 10px 20px 30px #71CFCF;}
+  }
