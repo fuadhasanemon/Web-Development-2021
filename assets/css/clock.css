@@ -1,0 +1,22 @@
+body {
+
+
+	background-color: #000;
+	position: relative;
+}
+
+#canvas{
+
+	margin-left: 629px;
+    margin-top: 81px;
+    position: absolute;
+    top: 50px;
+    
+}
+
+.clock {
+	color: white;
+    position: absolute;
+    top: 1px;
+    right: 855px;
+}
